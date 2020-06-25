@@ -4,12 +4,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="Bottom">
+      <footer className="Bottom">
         <a>workout</a>
         <a>nutrition</a>
         <a>premium</a>
         <a>account</a>
-      </div>
+      </footer>
     </div>
   );
 }
