@@ -28,7 +28,7 @@ export default function Workout() {
           <h3>{`${level} Level`}</h3>
           <Title>{`${title}`}</Title>
           <p>{`${equipment} Equipment`}</p>
-          <Try>Try</Try>
+          <Try>TRY</Try>
         </Card>
         <Card
           style={{
@@ -36,7 +36,7 @@ export default function Workout() {
             backgroundSize: "100%",
           }}
         >
-          <Try>Try</Try>
+          <Try>TRY</Try>
         </Card>
         <Card
           style={{
@@ -44,7 +44,7 @@ export default function Workout() {
             backgroundSize: "100%",
           }}
         >
-          <button>salut</button>
+          <Try>TRY</Try>
         </Card>
         <Card
           style={{
@@ -52,7 +52,7 @@ export default function Workout() {
             backgroundSize: "100%",
           }}
         >
-          <button>salut</button>
+          <Try>TRY</Try>
         </Card>
         <Card
           style={{
@@ -60,7 +60,7 @@ export default function Workout() {
             backgroundSize: "100%",
           }}
         >
-          <button>salut</button>
+          <Try>TRY</Try>
         </Card>
       </Cards>
     </>
