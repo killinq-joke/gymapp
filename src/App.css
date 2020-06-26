@@ -21,10 +21,19 @@
 
 .exercises {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 5%;
+}
+
+.cards {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-bottom: 15vh;
 }
 
 .card {
   background-image: url("./imgs/powerman.jpg");
+  margin-bottom: 1em;
 }
