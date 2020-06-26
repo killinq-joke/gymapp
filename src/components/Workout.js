@@ -1,5 +1,8 @@
 import React from "react";
-import { Icon, InlineIcon } from "@iconify/react";
+
+import { Cards, Card } from "../styles/styled";
+
+import { Icon } from "@iconify/react";
 import magnifyingGlass from "@iconify/icons-entypo/magnifying-glass";
 import powerman from "../imgs/powerman.jpg";
 
@@ -11,9 +14,40 @@ export default function Workout() {
         <h1>Exercises</h1>
         <Icon icon={magnifyingGlass} width="30" height="30" />
       </div>
-      <div style={{ backgroundImage:`url(${powerman})`, "background-size": "200px", height: "100px" }}>
-        <button>salut</button>
-      </div>
+      <Cards>
+        <Card
+          style={{
+            backgroundImage: `url(${powerman})`,
+            backgroundSize: "100%",
+          }}
+        >
+          <button>salut</button>
+        </Card>
+        <Card style={{
+            backgroundImage: `url(${powerman})`,
+            backgroundSize: "100%",
+          }}>
+          <button>salut</button>
+        </Card>
+        <Card style={{
+            backgroundImage: `url(${powerman})`,
+            backgroundSize: "100%",
+          }}>
+          <button>salut</button>
+        </Card>
+        <Card style={{
+            backgroundImage: `url(${powerman})`,
+            backgroundSize: "100%",
+          }}>
+          <button>salut</button>
+        </Card>
+        <Card style={{
+            backgroundImage: `url(${powerman})`,
+            backgroundSize: "100%",
+          }}>
+          <button>salut</button>
+        </Card>
+      </Cards>
     </>
   );
 }
