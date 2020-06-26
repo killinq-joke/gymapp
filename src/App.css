@@ -1,9 +1,10 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
-  color: rgba(76, 217, 100)
+  margin-left: 5%;
+  color: rgba(76, 217, 100);
 }
 
 .Bottom {
