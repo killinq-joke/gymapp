@@ -1,14 +1,16 @@
 import React from "react";
 
-import { Cards, Card } from "../styles/styled";
+import { Cards, Card, Title, Try } from "../styles/styled";
 
 import { Icon } from "@iconify/react";
 import magnifyingGlass from "@iconify/icons-entypo/magnifying-glass";
 import powerman from "../imgs/powerman.jpg";
 
 export default function Workout() {
+  const level = "Advanced";
+  const title = "Strong And Big Chest";
+  const equipment = "Full";
 
-  const level = "Advanced"
   return (
     <>
       <h3>TRAIN LIKE ROBERT BLAZEVIC</h3>
@@ -23,9 +25,10 @@ export default function Workout() {
             backgroundSize: "100%",
           }}
         >
-          <h3>{`${level} Level` }</h3>
-          
-          <button>salut</button>
+          <h3>{`${level} Level`}</h3>
+          <Title>{`${title}`}</Title>
+          <p>{`${equipment} Equipment`}</p>
+          <Try>Try</Try>
         </Card>
         <Card
           style={{
@@ -33,7 +36,7 @@ export default function Workout() {
             backgroundSize: "100%",
           }}
         >
-          <button>salut</button>
+          <Try>Try</Try>
         </Card>
         <Card
           style={{
