@@ -7,6 +7,8 @@ import magnifyingGlass from "@iconify/icons-entypo/magnifying-glass";
 import powerman from "../imgs/powerman.jpg";
 
 export default function Workout() {
+
+  const level = "Advanced"
   return (
     <>
       <h3>TRAIN LIKE ROBERT BLAZEVIC</h3>
@@ -21,30 +23,40 @@ export default function Workout() {
             backgroundSize: "100%",
           }}
         >
+          <h3>{`${level} Level` }</h3>
+          
           <button>salut</button>
         </Card>
-        <Card style={{
+        <Card
+          style={{
             backgroundImage: `url(${powerman})`,
             backgroundSize: "100%",
-          }}>
+          }}
+        >
           <button>salut</button>
         </Card>
-        <Card style={{
+        <Card
+          style={{
             backgroundImage: `url(${powerman})`,
             backgroundSize: "100%",
-          }}>
+          }}
+        >
           <button>salut</button>
         </Card>
-        <Card style={{
+        <Card
+          style={{
             backgroundImage: `url(${powerman})`,
             backgroundSize: "100%",
-          }}>
+          }}
+        >
           <button>salut</button>
         </Card>
-        <Card style={{
+        <Card
+          style={{
             backgroundImage: `url(${powerman})`,
             backgroundSize: "100%",
-          }}>
+          }}
+        >
           <button>salut</button>
         </Card>
       </Cards>
