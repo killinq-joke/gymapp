@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import powerman from "../imgs/powerman.jpg";
 
 export const Cards = styled.div`
   display: flex;
@@ -13,4 +12,12 @@ export const Card = styled.div`
   height: 20vh;
   width: 85%;
   margin-bottom: 3%;
+`;
+
+export const Title = styled.h2`
+  color: hsla(0, 0%, 100%, 0.87);
+`;
+
+export const Try = styled.button`
+  background-color: rgba(76, 217, 100);
 `;
