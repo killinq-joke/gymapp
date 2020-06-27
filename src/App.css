@@ -4,7 +4,8 @@
 
 h3 {
   margin-left: 5%;
-  color: rgba(76, 217, 100);
+  color: rgba(76, 217, 99, 0.87);
+  font-size: 0.7rem;
 }
 
 .Bottom {
