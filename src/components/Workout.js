@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Cards, Card, Title, Try } from "../styles/styled";
+import { Cards, Card, P, Ps, Title, Try } from "../styles/styled";
 
 import { Icon } from "@iconify/react";
 import magnifyingGlass from "@iconify/icons-entypo/magnifying-glass";
@@ -10,6 +10,8 @@ export default function Workout() {
   const level = "Advanced";
   const title = "Strong And Big Chest";
   const equipment = "Full";
+  const type = "Strength";
+  const time = 45;
 
   return (
     <>
@@ -24,11 +26,19 @@ export default function Workout() {
             backgroundImage: `url(${powerman})`,
             backgroundSize: "100%",
           }}
-        >
-          <h3>{`${level} Level`}</h3>
+        ><h3>{`${level} Level`}</h3>
           <Title>{`${title}`}</Title>
-          <p>{`${equipment} Equipment`}</p>
+          <div style={{display: "flex", justifyContent: "space-between" ,alignItems: "flex-end"}}>
+            
+          <Ps>
+            <P>{`${equipment} Equipment`}</P>
+            <P>{`${type}`}</P>
+            <P>{`Total Time: ${time.toString()} minutes`}</P>
+          </Ps>
+
           <Try>TRY</Try>
+          </div>
+          
         </Card>
         <Card
           style={{
