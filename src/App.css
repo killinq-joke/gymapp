@@ -5,7 +5,8 @@
 h3 {
   margin-left: 5%;
   color: rgba(76, 217, 99, 0.87);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  transform: scale(1, .9);
 }
 
 .Bottom {
