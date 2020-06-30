@@ -18,28 +18,28 @@ export default function Footer() {
           <img
             alt="card"
             src={window.location.pathname === "/workout" ? dumbell1 : dumbell}
-            style={{ width: "25%" }}
+            style={{ width: "35%" }}
           />
         </Link>
         <Link to="/nutrition">
           <img
             alt="card"
             src={window.location.pathname === "/nutrition" ? dish1 : dish}
-            style={{ width: "25%" }}
+            style={{ width: "35%" }}
           />
         </Link>
         <Link to="/premium">
           <img
             alt="card"
             src={window.location.pathname === "/premium" ? diamond1 : diamond}
-            style={{ width: "25%" }}
+            style={{ width: "35%" }}
           />
         </Link>
         <Link to="/account">
           <img
             alt="card"
             src={window.location.pathname === "/account" ? user1 : user}
-            style={{ width: "25%" }}
+            style={{ width: "35%" }}
           />
         </Link>
       </footer>
