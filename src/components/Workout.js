@@ -18,7 +18,7 @@ export default function Workout() {
       <h3>TRAIN LIKE ROBERT BLAZEVIC</h3>
       <div className="exercises">
         <h1>Exercises</h1>
-        <Icon icon={magnifyingGlass} width="30" height="30" />
+        <Icon icon={magnifyingGlass} width="30" height="30" style={{cursor: "pointer"}}/>
       </div>
       <Cards>
         <Card
