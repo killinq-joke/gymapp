@@ -22,6 +22,13 @@ export const FooterLink = styled.img`
   width: 35%;
 `;
 
+export const GenderButton = styled.button`
+  border: 2px solid black;
+  border-radius: 5px;
+  background: transparent;
+  padding: 10px 20px;
+`;
+
 export const Title = styled.h2`
   margin-left: 5%;
 `;
