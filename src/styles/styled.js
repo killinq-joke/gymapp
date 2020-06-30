@@ -16,8 +16,11 @@ export const Card = styled.a({
   width: "85%",
   "margin-bottom": "5%",
   color: "hsla(0, 0%, 100%, 0.87)",
-  
 });
+
+export const FooterLink = styled.img`
+  width: 35%;
+`;
 
 export const Title = styled.h2`
   margin-left: 5%;

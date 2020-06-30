@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import { FooterLink } from "../styles/styled"
+
 import dumbell from "../imgs/dumbell.png";
 import dumbell1 from "../imgs/dumbell (1).png";
 import diamond from "../imgs/diamond.png";
@@ -15,31 +17,27 @@ export default function Footer() {
     <>
       <footer className="Bottom">
         <Link to="/workout">
-          <img
+          <FooterLink
             alt="card"
             src={window.location.pathname === "/workout" ? dumbell1 : dumbell}
-            style={{ width: "35%" }}
           />
         </Link>
         <Link to="/nutrition">
-          <img
+          <FooterLink
             alt="card"
             src={window.location.pathname === "/nutrition" ? dish1 : dish}
-            style={{ width: "35%" }}
           />
         </Link>
         <Link to="/premium">
-          <img
+          <FooterLink
             alt="card"
             src={window.location.pathname === "/premium" ? diamond1 : diamond}
-            style={{ width: "35%" }}
           />
         </Link>
         <Link to="/account">
-          <img
+          <FooterLink
             alt="card"
             src={window.location.pathname === "/account" ? user1 : user}
-            style={{ width: "35%" }}
           />
         </Link>
       </footer>
