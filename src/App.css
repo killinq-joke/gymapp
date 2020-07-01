@@ -1,6 +1,5 @@
 :root {
   font-size: 16px;
-  
 }
 
 .App {
@@ -11,12 +10,15 @@ h3 {
   margin-left: 5%;
   color: rgba(76, 217, 99, 0.87);
   font-size: 0.8rem;
-  transform: scale(1, .9);
+  transform: scale(1, 0.9);
 }
 
 a:link {
   display: flex;
   justify-content: center;
+}
+
+a:link:focus {
 }
 
 .Bottom {
