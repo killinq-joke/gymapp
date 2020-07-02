@@ -21,6 +21,19 @@ a:link {
 a:link:focus {
 }
 
+input[type="range"] {
+  color: rgb(153, 0, 0);
+  padding: 0;
+  -webkit-appearance: none;
+  background: #ccc;
+  box-sizing: border-box;
+  transition: opacity .2s;
+  cursor: pointer;
+  outline: none;
+}
+input[type="range"]:focus {
+}
+
 .Bottom {
   display: flex;
   justify-content: space-evenly;
