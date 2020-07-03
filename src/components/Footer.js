@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { FooterLink } from "../styles/styled"
+import { FooterLink } from "../styles/styled";
 
 import dumbell from "../imgs/dumbell.png";
 import dumbell1 from "../imgs/dumbell (1).png";
@@ -41,7 +41,6 @@ export default function Footer() {
           />
         </Link>
       </footer>
-      ;
     </>
   );
 }
