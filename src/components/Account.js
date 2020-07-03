@@ -46,7 +46,6 @@ export default function Account() {
         </div>
         <input
           style={{ width: "95%" }}
-          name="foo"
           type="range"
           min="1920"
           max={`${new Date().getFullYear() - 7}`}
@@ -65,7 +64,6 @@ export default function Account() {
         </div>
         <input
           style={{ width: "95%" }}
-          name="foo"
           type="range"
           min="100"
           max="250"
@@ -84,7 +82,6 @@ export default function Account() {
         </div>
         <input
           style={{ width: "95%" }}
-          name="foo"
           type="range"
           min="40"
           max="250"
