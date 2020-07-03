@@ -27,7 +27,7 @@ input[type="range"] {
   -webkit-appearance: none;
   background: #ccc;
   box-sizing: border-box;
-  transition: opacity .2s;
+  transition: opacity 0.2s;
   cursor: pointer;
   outline: none;
 }
