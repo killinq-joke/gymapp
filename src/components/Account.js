@@ -5,10 +5,9 @@ import arrowLeftShort from "@iconify/icons-bi/arrow-left-short";
 import { GenderButton } from "../styles/styled";
 
 export default function Account() {
-
   const [height, setHeight] = useState(150);
-  const [birthYear, setBirthYear] = useState(2000)
-  const [weight, setWeight] = useState(80)
+  const [birthYear, setBirthYear] = useState(2000);
+  const [weight, setWeight] = useState(80);
 
   const name = "Mark Summerby";
 

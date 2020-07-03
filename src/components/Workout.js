@@ -18,7 +18,12 @@ export default function Workout() {
       <h3>TRAIN LIKE ROBERT BLAZEVIC</h3>
       <div className="exercises">
         <h1>Exercises</h1>
-        <Icon icon={magnifyingGlass} width="30" height="30" style={{cursor: "pointer"}}/>
+        <Icon
+          icon={magnifyingGlass}
+          width="30"
+          height="30"
+          style={{ cursor: "pointer" }}
+        />
       </div>
       <Cards>
         <Card
@@ -26,19 +31,24 @@ export default function Workout() {
             backgroundImage: `url(${powerman})`,
             backgroundSize: "100%",
           }}
-        ><h3>{`${level} Level`}</h3>
+        >
+          <h3>{`${level} Level`}</h3>
           <Title>{`${title}`}</Title>
-          <div style={{display: "flex", justifyContent: "space-between" ,alignItems: "flex-end"}}>
-            
-          <Ps>
-            <P>{`${equipment} Equipment`}</P>
-            <P>{`${type}`}</P>
-            <P>{`Total Time: ${time.toString()} minutes`}</P>
-          </Ps>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "flex-end",
+            }}
+          >
+            <Ps>
+              <P>{`${equipment} Equipment`}</P>
+              <P>{`${type}`}</P>
+              <P>{`Total Time: ${time.toString()} minutes`}</P>
+            </Ps>
 
-          <Try>TRY</Try>
+            <Try>TRY</Try>
           </div>
-          
         </Card>
         <Card
           style={{
